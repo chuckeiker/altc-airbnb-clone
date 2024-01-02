@@ -1,0 +1,292 @@
+#showImgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 52vh;
+    flex-grow: 1;
+}
+
+#showContainer {
+    margin-left: 13%;
+    margin-right: 13%;
+    padding-top: 105px;
+    
+}
+
+
+#showPageTitle {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#miniNavBarShowPage {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+#bigShowImg {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px 0px 0px 15px;
+}
+
+#smallShowImg {
+    display: flex;
+    width: 47%;
+    height: 49%;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    width: 48%;
+    height: 49%;
+    object-fit: cover;
+    width: calc(50% - 10px)
+}
+
+#smallShowImgContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 100%;
+}
+
+
+
+
+#smallShowImgContainer > :nth-child(2){
+    border-radius: 0px 15px 0px 0px;  
+}
+
+#smallShowImgContainer> :nth-child(4) {
+    border-radius: 0px 0px 15px 0px;
+}
+
+#showTopDisplayBar {
+    display: flex;
+    justify-content: space-between;
+    border: .5px solid #c4c4c4;
+    height: 80px;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+
+
+
+
+
+
+
+#listingInformation {
+    font-size: 18px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+#hostedByUsername {
+    font-size: 25px;
+}
+
+#showDescription {
+    border: .5px solid #c4c4c4;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+    padding-top: 30px;
+    margin-top: 20px;
+    line-height: 1.5
+}
+
+
+
+#firstHalfShowInformationBox {
+    display: flex;
+    border: .5px solid #c4c4c4;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    margin-bottom: 40px;
+}
+
+#tempBookingForm {
+    margin-top: 50px;
+    display: absolute;
+    border: 1px solid #000;
+    width: 50%;
+    height: 460px;
+}
+
+
+
+
+
+
+#amenities {
+    font-size: 20px;
+    display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+}
+
+
+#amenitiesTitle {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+#showPlaceholder {
+    width: 100%;
+    border: 1px solid #000;
+    height: 500px;
+    margin-top: 20px;
+}
+
+
+
+#tempBookingForm{
+    /* display: flex; */
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0); 
+    transition: box-shadow 0.2s ease;
+    border-radius: 10px;
+    border: .5px solid #ccc;
+    padding-bottom: 40px;
+    justify-content: center;
+}
+    
+#tempBookingForm {
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+} 
+
+#topBookingFormInfo {
+    display: flex;
+    font-size: 25px;
+    font-style: bold;
+    justify-content: space-between;
+    padding:20px
+}
+
+#bookingFormDropDownButtonsContainer {
+    display: flex;
+    margin-top: 7px;
+    display: flex;
+    size: 125px;
+    width: 100%;
+    height: 13%;
+    /* border: 2px solid black; */
+    justify-content: center;
+    
+}
+
+#bookingFormDropDownButtonsContainer button:first-child {
+    border-radius: 15px 0px 0px 0px;
+}
+
+#bookingFormDropDownButtonsContainer button:last-child {
+    border-radius: 0px 15px 0px 0px;
+    
+}
+
+.bookingFormDropDownButtons1 {
+border-radius: 15px 0px 0px 0px;
+border: 1px solid rgb(158, 158, 158);
+height: 57px;
+width: 143px;
+font-size: 20px;
+}
+
+.bookingFormDropDownButtons2 {
+    border-radius: 0px 15px 0px 0px;
+    border: 1px solid rgb(158, 158, 158);
+    height: 57px;
+    width: 143px;
+    font-size: 20px;
+}
+
+.bigBookingFormDropDownButton {
+    vertical-align: top;
+    text-align: left;
+    font-size: 20px;
+    width: 292px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    position: absolute;
+    right: 15.5%;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    border-radius: 0px 0px 15px 15px;
+    background-color: white;
+    text-indent: 20px;
+}
+
+.bigBookingFormDropDownButton::-webkit-inner-spin-button,
+.bigBookingFormDropDownButton::-webkit-outer-spin-button {
+    margin-right: 20px;
+}
+
+#bigRedBookingReserveFormButton {
+    font-size: 20px;
+    width: 19.7%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: absolute;
+    right: 15.5%;
+    top: 112%;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    border-radius: 15px;
+    background-color: rgb(255, 0, 89);
+    color: white;
+    cursor: pointer;
+}
+
+#bigRedBookingReserveFormButton2 {
+    font-size: 20px;
+    width: 19.7%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: absolute;
+    right: 15.5%;
+    top: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    border-radius: 15px;
+    background-color: rgb(255, 0, 89);
+    color: white;
+    cursor: pointer;
+}
+
+
+.listing-review-container {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(128, 128, 128, 0.5);
+    width: 100%;
+    /* text-align: center; */
+}
+
+.listing-review-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.single-review {
+    width: calc(48% - 10px);
+    /* border: 1px solid #eaeaea; */
+    padding: 10px;
+}
+
+.single-review>div {
+    margin-bottom: 8px;
+}
+
+.single-review:nth-child(2n + 1) {
+    clear: both;
+}

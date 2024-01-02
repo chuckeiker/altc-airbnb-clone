@@ -1,0 +1,13 @@
+json.extract! @review, 
+    :id,
+    :listing_id,
+    :reviewer_id,
+    :reservation_id,
+    :cleanliness,
+    :accuracy,
+    :value,
+    :communication,
+    :check_in,
+    :location,
+    :rating,
+    :body

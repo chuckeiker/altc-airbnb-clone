@@ -1,0 +1,21 @@
+{
+  "name": "airbnb-clone-fullstack-proj",
+  "version": "1.0.0",
+  "description": "This README would normally document whatever steps are necessary to get the application up and running.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "npm install --prefix frontend && npm run build --prefix frontend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "18.16.0"
+  },
+  "dependencies": {
+    "react-star-ratings": "^2.3.0"
+  }
+}

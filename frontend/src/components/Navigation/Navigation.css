@@ -1,0 +1,188 @@
+#homeTopDisplayBar {
+    display: flex;
+    justify-content: space-between;
+    border: .5px solid #c4c4c4;
+    height: 80px;
+}
+
+
+/* might have to fix img by increasing text size */
+#AirDnDHomeButton {
+    width: 90px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 78px;
+}
+
+
+#stickyContainer {
+    position: fixed;
+    z-index: 999;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+#catagories {
+    display: flex;
+    justify-content: space-between;
+    /* border: .5px solid #c4c4c4; */
+    height: 75px;
+}
+
+
+#indexFooter {
+    border: .5px solid #c4c4c4;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    padding: 20px;
+    margin-left: 5.3%;
+    margin-right: 5.3%;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+    margin-top: 20px
+}
+
+
+#showFooter {
+    border: .5px solid #c4c4c4;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    padding: 20px;
+    margin-left: 13%;
+    margin-right: 13%;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+    margin-top: 20px
+}
+
+
+
+
+
+
+
+
+.search-bar {
+    display: relative;
+    border: 1px solid #ccc;
+    border-radius: 35px;
+    height: 60%;
+    width: 23%;
+    margin-top: 1%;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    transition: box-shadow 0.2s ease;
+    cursor: pointer;
+    
+    
+}
+
+#search-dropdown {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-top: none;
+    margin-top: -18px;
+    margin-left: -1px;
+    margin-right: -1px;
+    padding: 10px;
+    padding-bottom: 4px;
+    border-radius: 0 0 20px 20px;
+    line-height: 1.5;
+}
+
+#search-dropdown li {
+    transition: background-color 0s ease;
+    cursor: pointer;
+}
+
+#search-dropdown li:hover {
+    background-color: #f6f6f6;
+}
+
+
+.search-bar:hover {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.search-input {
+    flex: 1;
+    border: none;
+    padding: 16px;
+    border-radius: 35px 0 0 35px;
+    width: 81%;
+    outline: none;
+}
+
+.search-button {
+    position: absolute;
+    border: none;
+    background-color: rgb(255, 0, 89);
+    color: #fff;
+    margin-top: 8px;
+    border-radius: 100%;
+    cursor: pointer;
+    font-size: 13px;
+    width: 32px;
+    height: 32px;
+    right: 40%;
+}
+
+
+
+.social-media-list {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 35px;
+    right: 10%;
+}
+
+.social-media-list-footer {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#top-profile-buttons {
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+#controlling-the-socials {
+    position: absolute;
+    right: 10%;
+}
+
+#controlling-the-socials2 {
+    position: absolute;
+    right: 17%;
+}
+
+#socials-buttons {
+    color: black;
+}
+
+
+#socials-buttons {
+    color: black;
+    transition: all 0.3s ease;
+    /* Add a transition for smooth animations */
+}
+
+#socials-buttons:hover {
+    transform: scale(1.1);
+    /* Expand the element on hover */
+    filter: brightness(1.2);
+    /* Make it glow brighter */
+}
+
+#socials-buttons:active {
+    transform: scale(0.9);
+    /* Sink in the element on click */
+    filter: brightness(0.8);
+    /* Make it less bright on click */
+}

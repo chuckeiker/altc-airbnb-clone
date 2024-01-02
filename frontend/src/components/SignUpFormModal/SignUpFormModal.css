@@ -1,0 +1,44 @@
+#SignUpForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#SignUpForm input {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    padding: 20px;
+    border: .5px solid #ccc;
+}
+
+#SignUpForm h2 {
+    font-size: 25px;
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+
+
+
+
+
+
+
+#headerOne {
+    
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 5px auto;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid rgb(225, 225, 225);
+    font-weight: bold;
+}
+
+#headerOne h1 {
+    position: relative;
+    top: -20px;
+}

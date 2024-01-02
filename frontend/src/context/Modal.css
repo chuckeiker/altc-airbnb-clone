@@ -1,0 +1,55 @@
+#modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#modal-background {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#modal-content {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 20px;
+    width: 525px;    
+    height: 640px;
+    border-radius: 10px;
+}
+
+.formButton {
+    background-color: rgb(255, 0, 89);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 14px 20px;
+    cursor: pointer;
+    margin: 40px 0px;
+    font-size: 15px;
+}
+
+
+
+.listOfErrors {
+    list-style: none;
+    font-size: 12px;
+}
+
+.listOfErrors li {
+    color: red;
+    margin-top: 5px;
+    position: relative;
+}

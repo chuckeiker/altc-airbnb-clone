@@ -1,0 +1,186 @@
+.reviews-form-modal-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 2998;
+}
+
+/* Styling for the ReviewsForm modal */
+.reviews-form-modal {
+    font-size: 15px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    max-width: 80%;
+    width: 53vw;
+    height: 85vh;
+    z-index: 999;
+    overflow: auto;
+    
+}
+
+.review-text {
+    width: 100%;
+    height: 20vh;
+    padding-top: 15px;
+}
+
+.review-text-textarea {
+    width: 97.5%;
+    height: 100%;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+    outline: none;
+    border-radius: 15px;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.rating-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid rgba(212, 212, 212, 0.1);
+    background-color: rgb(247, 247, 247);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 40px;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 10%;
+}
+
+.rating-row:hover {
+    border: 1px solid rgb(0, 0, 0, .3);
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+}
+
+.rating-drop-down-menu {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    /* font-size: 20px; */
+    appearance: none;
+    outline: none;
+    padding: 10px;
+    background-color: white;
+    border-color: rgb(227, 227, 227);
+}
+
+.rating-category {
+    width: 25%
+}
+
+.close-button {
+    background: none;
+    border: none;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.close-button:hover {
+    background: rgb(238, 238, 238);
+}
+
+#above-divider-elements-review-form {
+  display: flex;
+  align-items: center;  
+  padding-bottom: 10px;
+}
+
+#above-divider-elements-review-form> :nth-child(2) {
+    margin: 0 auto;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.trip-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-on-review-form {
+    width: 50%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;;
+}
+
+#Trip-Details-header {
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.trip-details-item {
+    font-weight: normal;
+}
+
+#Trip-Details-container> :nth-child(2) {
+    font-weight: bold;
+}
+
+#Trip-Details-container> :nth-child(3) {
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#review-form-bottom-buttons {
+    display: flex;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+#review-submit-button,
+#review-cancel-button {
+    background-color: rgb(255, 0, 89);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 20%;
+    height: 50px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#review-submit-button:hover,
+#review-cancel-button:hover {
+    transform: scale(1.05);
+    /* Pop out effect on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#review-submit-button:active,
+#review-cancel-button:active {
+    transform: scale(0.95);
+    /* Sink in effect on click */
+    box-shadow: none;
+}

@@ -1,0 +1,373 @@
+#reservations-content-container {
+    /* border: 20px solid black; */
+    display: flex;
+    gap: 23px;
+    padding-left: 5.3%;
+    padding-right: 5.3%;
+    padding-top: 105px;
+    flex-grow: 1;
+    font-size: 34px;
+    font-weight: bold;
+    flex-direction: column;
+}
+
+#trips-taken-text {
+font-size: 20px;
+}
+
+#reservations-greeting-container {
+    display: flex;
+    border: 1px solid rgb(133, 133, 133);
+    height: 300px;
+    width: 100%;
+    border-radius: 15px;
+    /* overflow: hidden; */
+    
+}
+
+#greeting-msg-container {
+    
+    font-size: 20px;
+    display: flex;
+    width: 45%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px 0px 0px 15px;
+    /* border: 1px solid rgb(255, 0, 0); */
+    flex-direction: column;
+}
+
+#greeting-msg-container >* {
+    padding-top: 4%;
+    padding-left: 7%
+}
+
+#return-to-listings-index-button {
+    padding: 0;
+    margin-left: 20px;
+    font-size: 20px;
+    width: 25%;
+    height:18%;
+    border-radius: 15px;
+    background-color: rgb(255, 0, 89);
+    color: white;
+    cursor: pointer;
+    border: none
+}
+
+#icon-for-reservations-hello {
+    font-size: 40px;
+    color: red;
+}
+
+#trips-booked-text {
+    padding-bottom: 0;
+}
+
+#dust-off-msg-text {
+    padding-top: 0;
+    padding-bottom: 30px;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+#reservation-greeting-img {
+    width: 55%;
+    height: 100%;
+    display: block;
+    border-radius: 0px 15px 15px 0px;
+}
+
+#separator-reservation-page {
+    border-top: .5px solid rgb(132, 132, 132);
+    width: 100%;
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+}
+
+#current-trips-text {
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+#reservationsIndexPage {
+    /* border: 1px solid rgba(128, 128, 128, 0.5); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 12px;
+    font-size: 15px;
+}
+
+.reservationItem {
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 calc(49.9% - 12px);
+    text-decoration: none;
+    color: inherit;
+    /* margin-bottom: 23px; */
+    height: 160px;
+}
+
+.reservationItemImg {
+    /* background-color: rgb(133, 133, 133); */
+    padding: 10px;
+    border-radius: 15px;
+    width: 35%;
+    height: auto;
+    object-fit: cover;
+}
+
+#reservation-text-box > * {
+    padding-top: 10px;
+}
+
+#reservation-text-box>*:nth-child(1) {
+    text-decoration: underline;
+    /* padding: 40px; */
+}
+
+#reservation-text-box>li:nth-child(n+3):nth-child(-n+4) {
+    font-weight: none;
+    /* padding: 40px; */
+    color: gray;
+}
+
+#reservation-text-box>li:nth-child(n+2):nth-child(-n+5) {
+    font-size: 13px;
+}
+
+.reservations-listing-buttons {
+    padding: 0;
+    margin-right: 10px;
+    margin-top: 5px;
+    font-size: 15px;
+    width: auto;
+    height: 15%;
+    border-radius: 5px;
+    background-color: rgb(255, 0, 89);
+    color: white;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 10px;
+    transition: transform 0.2s;
+    padding: 8px;
+}
+
+.reservations-listing-buttons:hover {
+    transform: scale(1.05);
+    /* Scale the button slightly on hover */
+}
+
+#empty-check-text-reservations {
+    font-size: 16px;
+}
+
+#no-search-results-found-text {
+    padding-top: 15%;
+    padding-left: 15%;
+    font-size: 30px;
+}
+
+
+
+
+
+
+#info-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.50);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+#info-modal-content {
+    background: rgba(255, 255, 255, 1);
+    padding: 20px;
+    border-radius: 5px;
+    width: 62%;
+    height: 90%;
+    transition: box-shadow 0.2s ease;
+    border-radius: 15px;
+    border: .5px solid #ccc;
+    padding-bottom: 40px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.8);
+}
+
+#info-modal-content-x-button {
+    background: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    color: black;
+    transition: background 0.3s;
+    font-size: 15px;
+    padding-top: 0;
+}
+
+#info-modal-content-x-button:hover {
+    background: #eaeaea;
+    /* Change to gray on hover */
+    /* Change text color on hover */
+}
+
+
+
+
+
+
+#calendar-update-container {
+    display: flex;
+    /* justify-content: space-between; */
+    /* gap: 10px; */
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.react-datepicker-popper {
+    z-index: 999;
+}
+
+.react-datepicker {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.react-datepicker__day {
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.react-datepicker__day--selected {
+    background-color: #007bff;
+    color: white;
+    border-radius: 50%;
+}
+
+
+
+.reservationItemImgUpdate {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.reservationItemImgUpdate img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.bookingFormDropDownButtons1update {
+    border-radius: 15px 0px 0px 15px;
+    border: 1px solid rgb(158, 158, 158);
+    height: 50px;
+    width: 30.5vw;
+    font-size: 20px;
+}
+
+.bookingFormDropDownButtons2update {
+    border-radius: 0px 15px 15px 0px;
+    border: 1px solid rgb(158, 158, 158);
+    height: 50px;
+    width: 30.5vw;
+    font-size: 20px;
+}
+
+.bigBookingFormDropDownButtonUpdate {
+    margin-top: 350px;
+    width: 49vw;
+    height: 8vh;
+    margin-left: 5vw;
+    border-radius: 15px;
+    font-size: 20px;
+    border: 1px solid gray;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#info-modal-content {
+    max-height: 90vh;
+    overflow-y: auto;
+    
+}
+
+#submit-update-reservation-button {
+    background: rgb(255, 0, 89);
+        width: 12vw;
+        height: 7vh;
+        margin-left: 25vw;
+        border-radius: 15px;
+        font-size: 20px;
+        border: 1px solid gray;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 10px;
+        transition: transform 0.2s, box-shadow 0.2s;
+        color: white;
+}
+
+#submit-update-reservation-button:hover {
+    transform: scale(1.05);
+    /* Scale up slightly on hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* Add a subtle shadow on hover */
+}
+
+#submit-update-reservation-button:active {
+    transform: scale(0.95);
+    /* Scale down slightly on click */
+}
+
+#update-modal-divider {
+        border-bottom: 1px dotted gray;
+            /* Set the border properties */
+            width: 100%;
+            margin-bottom: 10px;
+            /* margin-top: 10px; */
+}
+
+#listing-date-update-form {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#listing-title-update-form {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#listing-address-update-form {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+#listing-guests-update-form {
+    font-size: 10px;
+    margin-bottom: 10px;
+    color: gray;
+}
